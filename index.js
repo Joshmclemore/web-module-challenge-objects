@@ -54,9 +54,9 @@ const burger = {
     // value === teacher ||
     // this.price(whatever the discount is)
     if(person === "teacher" || person === "student"){
-    return 13.5
+    return this.price*0.75
   }else if(person === "public"){
-    return 16.2
+    return this.price*0.9
   }else {
     return 'Entry not valid'
   }
